@@ -8,7 +8,7 @@ $scheme = $_GET["scheme"];
 <meta property="al:android:package" content="com.lotusflare.globe.de" />
 <meta property="al:android:class" content="com.lotusflare.globe.de.WelcomeActivity" />
 <meta property="og:title" content="Globe Switch" />
-<meta property="og:url" content="https://fb.me/1436267679740897" />
+<!--<meta property="og:url" content="https://fb.me/1436267679740897" /> -->
 <meta property="fb:app_id" content="284203378622712" />
 <meta property="al:web:should_fallback" content="false" />
 </head>
