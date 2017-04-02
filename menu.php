@@ -12,7 +12,7 @@
 <div class="container">
 	<nav>
 		<ul class="mcd-menu">
-		<li>
+		<!-- <li>
 		<a href="#">Bot Analytics</a>
 		<ul>
 				<li><a href="https://www.dashbot.io/login">Dashbot Analytics</a></li>
@@ -27,14 +27,14 @@
 			</li>
 			
 		</ul>
-	</li>
+	</li>-->
 	<li>
 		<a href="#">Business Cases</a>
 		<ul>
 			 <li> <a href="index.php">Top Selling Offers</a></li>
-			 <li><a href="fb_campaign.php">Broadcast to FB users</a></li>
+			 <!-- <li><a href="fb_campaign.php">Broadcast to FB users</a></li>
 			 <li><a href="fb_campaign_aws.php">Broadcast to FB users via AWS</a></li>
-			 <li><a href="poc_voice.php">POC for voice</a></li>
+			 <li><a href="poc_voice.php">POC for voice</a></li> -->
 		</ul>
 	</li>
 	<li>
