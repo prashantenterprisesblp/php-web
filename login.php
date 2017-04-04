@@ -11,6 +11,8 @@ session_start();
 <body>
 <?php
 error_reporting(0);
+
+echo getenv("webservice_url");
 	
 if($_POST["submit"])
 {
