@@ -20,7 +20,7 @@ $pass = $_POST["pass"];
 
 $pass = md5($pass);
 
-$url = getenv("AWS_ACCESS_KEY_ID").'/?user_name='.$loginid.'&password='.$pass.'';
+$url = getenv("webservice_url").'/?user_name='.$loginid.'&password='.$pass.'';
 
 $result = file_get_contents($url);
 
