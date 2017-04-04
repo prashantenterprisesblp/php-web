@@ -11,8 +11,6 @@ session_start();
 <body>
 <?php
 error_reporting(0);
-
-echo getenv("webservice_url");
 	
 if($_POST["submit"])
 {
@@ -22,7 +20,7 @@ $pass = $_POST["pass"];
 
 $pass = md5($pass);
 
-$url = getenv("webservice_url").'/?user_name='.$loginid.'&password='.$pass.'';
+echo $url = getenv("webservice_url").'/?user_name='.$loginid.'&password='.$pass.'';
 
 $result = file_get_contents($url);
 
