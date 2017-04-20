@@ -14,6 +14,7 @@ if ($_SESSION['login'] == "")
 header("location:login.php");	
 }
 $id = $_GET["id"];
+$notify = $_GET["notify"];
 $title = $_POST["title"];
 $title = str_replace(" ", "%20", $title);
 $sub_title = $_POST["sub_title"];
